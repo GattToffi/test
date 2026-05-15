@@ -1,0 +1,70 @@
+/* Общие настройки */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Шапка */
+header {
+  background: #4a90d9;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+/* Основной контент */
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #4a90d9;
+}
+
+/* Список навыков */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e8f0fe;
+  margin-bottom: 8px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  color: #666;
+  font-size: 0.9em;
+}
